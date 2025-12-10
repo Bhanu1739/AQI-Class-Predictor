@@ -8,6 +8,7 @@ with open("knn_model.pkl","rb") as f:
     model = pickle.load(f)
 
 st.title("AQI CLASS PREDICTION APP")
+st.write("Chinna Pashula Bhanu Prakash Reddy")
 
 City = st.selectbox("City",['Ahmedabad', 'Talcher', 'Mumbai', 'Kolkata', 'Patna', 'Delhi',
        'Hyderabad', 'Bengaluru', 'Chandigarh', 'Coimbatore', 'Lucknow',
